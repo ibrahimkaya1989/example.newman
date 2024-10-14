@@ -10,15 +10,17 @@ node --version
 ## Dependencies
 
 ```bash
-npm install -g newman
-npm install -g newman-reporter-html
-npm install -g newman-reporter-htmlextra
+npm install
+npm install newman
+npm install newman-reporter-json
+npm install newman-reporter-html
+npm install newman-reporter-htmlextra
 ```
 
 ## Running
 
 ```bash
-newman run DemoPhotoGallery.postman_collection.json --reporters=cli,htmlextra
+newman run DemoPhotoGallery.postman_collection.json --reporters=cli,junit,json,junit,htmlextra
 ```
 
 Example:

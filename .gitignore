@@ -1,5 +1,8 @@
 # Dictionaries
+/.vscode/
+/node_modules/
 /newman/
 
 # Files
-*.tmp
+*.logs
+*.log
