@@ -9,8 +9,11 @@ node --version
 
 ## Dependencies
 
+More information: https://github.com/postmanlabs/newman
+
 ```bash
 npm install
+
 npm install newman
 npm install newman-reporter-json
 npm install newman-reporter-html
