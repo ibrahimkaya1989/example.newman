@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "This is a newman api automation example.",
   "scripts": {
-    "test": "newman run my_collection.json -e my_environment.json --reporters=cli,htmlextra"
+    "test": "newman run DemoPhotoGallery.postman_collection.json --reporters=cli,junit,json,junit,htmlextra"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ibrahimkaya1989/example.newman.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "İbrahim Kaya",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ibrahimkaya1989/example.newman/issues"
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ibrahimkaya1989/example.newman#readme",
   "devDependencies": {
     "newman": "^6.2.1",
+    "newman-reporter-allure": "^3.0.5",
     "newman-reporter-htmlextra": "^1.23.1",
     "newman-reporter-json": "^1.0.0"
   },
